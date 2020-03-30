@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset='utf-8'>
+   <script type="text/javascript">
+    function myFunction() {
+      var x = document.getElementById("fname");
+      x.value = x.value.toUpperCase();
+      }
+</script>
+   <title>Student Feedback form</title>
+</head>
+<body style="background-image: url('feedback.jpg');background-repeat: no-repeat;background-size: cover;">
+   <h1 align="center">CHANDUBHAI S. PATEL INSTITUTE OF TECHNOLOGY</h1>
+   <h3 align="center">Expert Lecture Feedback Form </h3>
+   <fieldset>
+      <legend><b>Student Info:</b></legend>
+      <form>
+         <b>First name:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</b> <input type="text" name="fname" id="fname" onblur="myFunction()" required="*"
+            value="Parmar"><br>
+         <b>Last name:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</b> <input type="text" name="last_name"
+            value="Shaswat" required="*" ><br>
+         <b>Id No:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</b>
+         <input type="text" name="id" value="18CE067" /><br>
+         <b>Name of Expert : </b> <input type="text" name="expert" value="Pro. Nitin M. Patel" /><br>
+         <tr>
+            <td class="tdrightclass"><b> Date of Lecture:&nbsp&nbsp&nbsp</b></td>
+            <td class="tdleftclass"><input type="Date" name="date"></td>
+         </tr><br>
+   </fieldset>
+   <fieldset>
+      <legend><b>Ratings:</b></legend>
+      <b>Subject/Topic: </b><input type="text" name="subject" /><br>
+      <p>Content of Expert Talk/Lecture:</p>
+      <input type="radio" name="subject" value="Very Good"> Excellent
+      <input type="radio" name="subject" value="Good"> Good
+      <input type="radio" name="subject" value="Average"> Average
+      <input type="radio" name="subject" value="Bad"> Poor
+      <br>
+      <p> Method of Presentation:</p>
+      <input type="radio" name="subject" value="Very Good"> Excellent
+      <input type="radio" name="subject" value="Good"> Good
+      <input type="radio" name="subject" value="Average"> Average
+      <input type="radio" name="subject" value="Bad"> Poor
+      <br>
+      <p>Response to Questions/Queries by Expert:</p>
+      <input type="radio" name="subject" value="Very Good"> Excellent
+      <input type="radio" name="subject" value="Good"> Good
+      <input type="radio" name="subject" value="Average"> Average
+      <input type="radio" name="subject" value="Bad"> Poor
+      <br>
+      <p>Innovativeness in the Expert Talk/Lecture:</p>
+      <input type="radio" name="subject" value="Very Good"> Excellent
+      <input type="radio" name="subject" value="Good"> Good
+      <input type="radio" name="subject" value="Average"> Average
+      <input type="radio" name="subject" value="Bad"> Poor
+      <br>
+      <br>
+      <b> Suggestion related to Expert Talk/Lecture : </b><br>
+      <textarea rows="5" cols="50" name="suggestion">
+        Enter suggestion  here...
+     </textarea><br><br>
+     <button type="button" value="Submit"> Record  Response</button>
+      </form>
+   </fieldset>
+</body>
+</html>

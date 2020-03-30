@@ -1,0 +1,30 @@
+body{
+    background-color: #091921;
+    color: white;
+}
+.container h1{
+    font-size: 48px;
+    color: #ff105e;
+    text-align: center;
+    margin: 0;
+    padding: auto;
+    background-color:#7d8386 ;
+    height: 100px;
+    width: 100%;
+}
+.table1{
+    align-items: center;
+    text-align: center;
+    background-color: #7d8386;
+    height: 100px;
+    width: 400px;
+    margin: 100px auto;
+}
+#tableheading{
+    color:#ff105e ;
+    background-color: black;
+}
+#img1{
+    margin: 0 auto;
+    width: 50%;
+}
