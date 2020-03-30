@@ -26,7 +26,7 @@ useful when designing webpages and use it. Remember W3schools provides excellent
 information in this regard and the ability to practice in order to learn what specific CSS
 properties control.
 
-Assignment – 3 (1 mark)
+Assignment – 3 
 In this one, create a JavaScript program that displays an alert that displays "Welcome to my Page!"
 when the user opens the page in their browser.
 To complete this assignment, please complete all of the following requirements:
