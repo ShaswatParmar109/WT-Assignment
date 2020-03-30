@@ -41,6 +41,7 @@ To complete this assignment, please complete all of the following requirements:
  The form should have at least 5 input fields and one button (not an input type submit
 button).
  At least one of these input fields should be validated using JavaScript on an onblur event.
+
 Assignment – 5 
  Create a web page for online registration of the National Workshop on Web Technology.
  The participants can be students, faculty members, professional, company / firm
